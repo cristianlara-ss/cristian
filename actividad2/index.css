@@ -15,7 +15,9 @@ body{
     border-style: ridge;
     border-color: black;
     background-color: rgb(65, 65, 65);
+    
 }
+
 header #menu{
     display: grid;
     padding: 1%;
@@ -27,11 +29,13 @@ header #menu a{
     padding: 0%;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    position: relative;
+    top: 400px;
 }
 
 header main #cuerpo{
     padding: 0%;
-    margin: 0%;
+    margin: 0px ;
 }
 
 main #cuerpo p{
@@ -40,25 +44,30 @@ main #cuerpo p{
 
 main #cuerpo {
     text-align: center;
+    
 }
 
 main #cuerpo .Titulo1{
     background-color: rgb(2, 255, 255);
     padding: 3%;
+    margin-left: 200px;
 }
 
 main #cuerpo .Titulo2{
     background-color: rgb(255, 251, 0);
     padding: 3%;
+    margin-left: 200px;
 }
 
 main #cuerpo .Titulo3{
     background-color: rgb(245, 118, 0);
     padding: 3%;
+    margin-left: 200px;
 }
 
 main #cuerpo .Titulo4{
     background-color: rgb(255, 0, 0);
     padding: 3%;
+    margin-left: 200px;
 }
 
