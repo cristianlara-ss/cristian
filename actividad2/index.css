@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(43, 42, 42);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#main-container header #menu{
+    float: left;
+    padding: 315px 30px;
+    border-style: ridge;
+    border-color: black;
+    background-color: rgb(65, 65, 65);
+}
+header #menu{
+    display: grid;
+    padding: 1%;
+    margin: 0%;
+}
+
+header #menu a{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header main #cuerpo{
+    padding: 0%;
+    margin: 0%;
+}
+
+main #cuerpo p{
+    text-align: left;
+}
+
+main #cuerpo {
+    text-align: center;
+}
+
+main #cuerpo .Titulo1{
+    background-color: rgb(2, 255, 255);
+    padding: 3%;
+}
+
+main #cuerpo .Titulo2{
+    background-color: rgb(255, 251, 0);
+    padding: 3%;
+}
+
+main #cuerpo .Titulo3{
+    background-color: rgb(245, 118, 0);
+    padding: 3%;
+}
+
+main #cuerpo .Titulo4{
+    background-color: rgb(255, 0, 0);
+    padding: 3%;
+}
+
