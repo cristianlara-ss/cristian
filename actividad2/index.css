@@ -11,7 +11,7 @@ body{
 
 #main-container header #menu{
     float: left;
-    padding: 315px 30px;
+    padding: 3% 0% 0% 2%;
     border-style: ridge;
     border-color: black;
     background-color: rgb(65, 65, 65);
@@ -24,13 +24,14 @@ header #menu{
     margin: 0%;
 }
 
+
 header #menu a{
     margin: 0%;
     padding: 0%;
     color: rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
-    top: 400px;
+    /*top: 400px;*/
 }
 
 header main #cuerpo{
@@ -51,23 +52,27 @@ main #cuerpo .Titulo1{
     background-color: rgb(2, 255, 255);
     padding: 3%;
     margin-left: 200px;
+    margin-right: 50px;
 }
 
 main #cuerpo .Titulo2{
     background-color: rgb(255, 251, 0);
     padding: 3%;
     margin-left: 200px;
+    margin-right: 50px;
 }
 
 main #cuerpo .Titulo3{
     background-color: rgb(245, 118, 0);
     padding: 3%;
     margin-left: 200px;
+    margin-right: 50px;
 }
 
 main #cuerpo .Titulo4{
     background-color: rgb(255, 0, 0);
     padding: 3%;
     margin-left: 200px;
+    margin-right: 50px;
 }
 
