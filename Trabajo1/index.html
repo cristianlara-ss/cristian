@@ -11,47 +11,53 @@
     <title>PETS</title>
 </head>
 <body>
-    
+  <!--Logo-->
   <div class="container-fluid" id="primer-contenedor">
     <div class="row">
       <div class="col-1"></div>
-      <div class="col-2 mt-4" id="contenedor-logo">
-        <a href="#">PETS</a>
+        <div class="col-2 mt-4" id="contenedor-logo">
+          <a href="#">PETS</a>
+        </div>
+        <!--Barra de busqueda-->
+        <div class="col-4 mt-5" id="contenedor-barra-busqueda">
+          <nav class="navbar navbar-dark mt-1">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2 col-5" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-1 mt-4 mb-3" id="contenedor-carro">
+          <a id="logo" href="#">CART</a>
+        </div>
       </div>
-      </div>
-      <div class="col-4 mt-1" id="contenedor-barra-busqueda">
-        <nav class="navbar navbar-dark mt-1">
-          <div class="container-fluid">
-            <form class="d-flex">
-              <input class="form-control me-2 col-5" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
-      </div>
+      
     </div>
   </div>
-
+  <!--Barra de productos-->
   <div class="container-fluid" id="segundo-contenedor">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-3 mt-3">
         <div class="dropdown">
-          <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
             Productos
           </a>
         
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Collar</a></li>
-            <li><a class="dropdown-item" href="#">Gps</a></li>
-            <li><a class="dropdown-item" href="#">Higiene</a></li>
+            <li><a class="dropdown-item" href="Collar.html">Collar</a></li>
+            <li><a class="dropdown-item" href="Gps.html">Gps</a></li>
+            <li><a class="dropdown-item" href="Higiene.html">Higiene</a></li>
           </ul>
         </div>
       </div>
 
       <div class="col-3 mt-3">
         <div class="dropdown">
-          <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
             Alimentos
           </a>
         
@@ -65,25 +71,29 @@
 
       <div class="col-3 mt-3">
         <div class="dropdown">
-          <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
             Iniciar sesion
           </a>
-        
+
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese tu gmail">
+                <label for="exampleInputEmail1" class="form-label" style="margin-left: 5px;">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Ingrese tu gmail">
                 <div id="emailHelp" class="form-text">No compartiremos su correo electrónico con nadie más.</div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña">
+                <label for="exampleInputPassword1" class="form-label" style="margin-left: 5px;">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1"
+                  placeholder="Ingrese su contraseña">
               </div>
               <!--Boton de Ingresar-->
-              <button type="submit" class="btn btn-primary" style="background-color: blueviolet;">Ingresar</button>
+              <a class="btn btn-none" href="#" role="button" style="background-color: #C52AAD; color: aliceblue; margin-left: 10px;">Iniciar Sesión</a>
+              <a class="btn btn-none" href="Registro.html" role="button" style="background-color: #C52AAD; color: aliceblue ; margin-left: 10px; ">Registrarse</a>
+
             </form>
-            <li><a class="dropdown-item" href="#">Registrarse</a></li>
           </ul>
         </div>
       </div>
@@ -92,7 +102,7 @@
   
   </div>
 
-  <div class="container" id="Tarjetas">
+  <div class="container" id="tercer-contenedor">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -135,7 +145,8 @@
             <img src="img/acc1.jpg" class="card-img-top" alt="acc1">
             <div class="card-body">
               <h5 class="card-title">Correa</h5>
-              <a href="#" class="btn btn-dark">Comprar</a>
+              <p>$5.990</p>
+              <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
             </div>
           </div>
         </div>
@@ -144,7 +155,8 @@
             <img src="img/acc2.jpg" class="card-img-top" alt="acc2">
             <div class="card-body">
               <h5 class="card-title">Bañera</h5>
-              <a href="#" class="btn btn-dark">Comprar</a>
+              <p>$9.990</p>
+              <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
             </div>
           </div>
         </div>
@@ -153,7 +165,8 @@
             <img src="img/acc3.jpg" class="card-img-top" alt="acc3">
             <div class="card-body">
               <h5 class="card-title">Pañuelos</h5>
-              <a href="#" class="btn btn-dark">Comprar</a>
+              <p>$2.990</p>
+              <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
             </div>
           </div>
         </div>
@@ -162,7 +175,8 @@
             <img src="img/acc4.jpg" class="card-img-top" alt="acc4">
             <div class="card-body">
               <h5 class="card-title">Dispensador</h5>
-              <a href="#" class="btn btn-dark">Comprar</a>
+              <p>15.990</p>
+              <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
             </div>
           </div>
         </div>
