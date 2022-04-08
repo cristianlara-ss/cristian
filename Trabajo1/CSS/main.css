@@ -20,15 +20,35 @@
     font-weight: 600;
 }
 
-#primer-contenedor #contenedor-carro #logo{
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
-     'Helvetica Neue', sans-serif;
-    font-weight: 600;
+/* Inicio del carrito */
+#primer-contenedor #contenedor-carro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 99px;
+    background: #500B59;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+#primer-contenedor #contenedor-carro:hover{
+    background-color: white;
+}
+
+#primer-contenedor #contenedor-carro #carrito{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+#primer-contenedor #contenedor-carro #carrito:hover{
+    color: #500B59;
+}
+
+/* Fin del carrito */
 
 #segundo-contenedor{
     height: 75px;
@@ -69,6 +89,10 @@
 
 #ListadoNosotros{
     text-align: center;
+}
+
+#Pestrella{
+    color: rgb(194, 47, 162);
 }
 
 /* Carousel tiene height puesto en .carousel y .carousel-inner > .item > img. /
