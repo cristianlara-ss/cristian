@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <label>Ingrese su usuario</label><br>
+        <!-- txtNombre-->
+        <input type="text" name="nombre" placeholder="Nombre"><br>
+        <label>Ingrese su password</label><br>
+        <input type="password" name="Pass" value="" placeholder="Password"><br>
+        <label>Ingrese su tipo de usuario</label>
+        <br>
+        <select name="slcTipo" >
+            <optgroup label="Administrativos">
+                <option value="1">Administrador</option>
+                <option value="2">Cliente</option>
+            </optgroup>
+
+            <optgroup label="Externos">
+                <option value="3">Usuario</option>
+                <option value="4">Invitado</option>
+            </optgroup>
+            
+        </select><br>
+
+        <input type="submit" name="btnIngresar" value="Conectar">
+        <input type="reset" name="btnLimpiar" value="Limpiar">
+    </form>
+</body>
+</html>
