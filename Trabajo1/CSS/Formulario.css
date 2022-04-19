@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#contenedor-form{
+    padding: 4.5rem ;
+}
+
+#contenedor-form #titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #707070;
+}
