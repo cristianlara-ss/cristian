@@ -95,6 +95,10 @@
     color: rgb(194, 47, 162);
 }
 
+#tarjetas-tamaño{
+    width: 50%;
+}
+
 /* Carousel tiene height puesto en .carousel y .carousel-inner > .item > img. /
 .carousel, .carousel-inner > .item > img {
     height: 10%;

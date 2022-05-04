@@ -20,3 +20,8 @@
     padding-left: 35%;
 
 }
+
+#fondo-formulario{
+    background-color: rgb(156, 156, 156);
+    border-radius: 1%;
+}
