@@ -13,7 +13,7 @@
   <div class="container-fluid" id="primer-contenedor">
     <div class="row">
       <div class="col-1"></div>
-        <div class="col-2 mt-4" id="contenedor-logo">
+        <div class="col-2 mt-5" id="contenedor-logo">
           <a href="index.html">PETS</a>
         </div>
         <!--Barra de busqueda-->
@@ -76,20 +76,28 @@
 
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label" style="margin-left: 5px;">Correo Electronico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Ingrese tu gmail">
-                <div id="emailHelp" class="form-text">No compartiremos su correo electrónico con nadie más.</div>
+              <div class="container">
+                <div class="mb-3">
+                  <label for="correoinicio" class="form-label" style="margin-left: 5px;">Correo Electronico</label>
+                  <input type="email" class="form-control" id="correoinicio" aria-describedby="emailHelp"
+                    placeholder="Ingrese tu gmail">
+                  <div id="emailHelp" class="form-text">No compartiremos su correo electrónico con nadie más.</div>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label" style="margin-left: 5px;">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1"
-                  placeholder="Ingrese su contraseña">
+              
+              <div class="container">
+                <div class="mb-3">
+                  <label for="claveinicio" class="form-label" style="margin-left: 5px;">Contraseña</label>
+                  <input type="password" class="form-control" id="claveinicio"
+                    placeholder="Ingrese su contraseña">
+                </div>
               </div>
-              <!--Boton de Ingresar-->
-              <a class="btn btn-none" href="#" role="button" style="background-color: #C52AAD; color: aliceblue; margin-left: 10px;">Iniciar Sesión</a>
-              <a class="btn btn-none" href="Registro.html" role="button" style="background-color: #C52AAD; color: aliceblue ; margin-left: 10px; ">Registrarse</a>
+              
+              <div class="container">
+                <a class="btn btn-none" type="button" onclick="inicio()" style="background-color: #C52AAD; color: aliceblue; margin-left: 10px;">Iniciar Sesión</a>
+                <a class="btn btn-none" type="button" href="Registro.html" style="background-color: #C52AAD; color: aliceblue ; margin-left: 10px; ">Registrarse</a>
+                <a class="btn btn-none" type="button" href="Admin.html" style="background-color: #50A1E3; color: aliceblue ; margin-top: 10px; margin-left: 10px; ">Admin</a>
+              </div>
 
             </form>
           </ul>
@@ -101,67 +109,61 @@
   </div>
 
 <!---------- GALERIA ----------------->
-<div class="col-1"></div>  
-<div class="col-6">
-    <div class="row">
-        <div class="conteiner">
-            <div class="col-1"></div>
-            <div class="row">
-            <div class="col1"></div>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                <div class="card text-center">
-                    <img src="https://laikapp.s3.amazonaws.com/dev_images_products/1402_GUAUMOR_ADULTOS_RAZAS_PEQUE%C3%91AS_1595871800_1000x1000.png" class="card-img-top" alt="acc1">
-                    <div class="card-body">
-                    <h5 class="card-title">BuaUmor Alimento Razas Pequeñas </h5>
-                    <h5 class="card-title">$5.090 para Suscritos</h5>
-                    <p>$8.990 Precio Normal</p>
-                    <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col">
-                <div class="card text-center">
-                    <img src="https://santaisabel.vtexassets.com/arquivos/ids/168106/Alimento-perro-adulto-carne-y-arroz-3-kg.jpg?v=637497794834700000" class="d-block w-100" alt="Foto 2" class="card-img-top" alt="acc2">
-                    <div class="card-body">
-                    <h5 class="card-title">Sabro Kan Sabor Carne</h5>
-                    <p>$9.990</p>
-                    <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col">
-                <div class="card text-center">
-                    <img src="https://jumbo.vtexassets.com/arquivos/ids/412491/Alimento-perro-raza-mediana-y-grande-8-kg.jpg?v=637469610164230000" class="card-img-top" alt="acc3">
-                    <div class="card-body">
-                    <h5 class="card-title">Dog Chow</h5>
-                    <p>$2.990</p>
-                    <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col">
-                <div class="card text-center">
-                    <img src="https://www.clubdeperrosygatos.cl/wp-content/uploads/2018/07/hills-sd-8159-1.png" class="card-img-top" alt="acc4">
-                    <div class="card-body">
-                    <h5 class="card-title">Science Diet Adulto 7+</h5>
-                    <p>15.990</p>
-                    <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
+<div class="container-fluid" id="tarjetas-tamaño">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card text-center">
+          <img src="img/acc1.jpg" class="card-img-top" alt="acc1">
+          <div class="card-body">
+            <h5 class="card-title">Correa</h5>
+            <p>$5.990</p>
+            <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img src="img/acc2.jpg" class="card-img-top" alt="acc2">
+          <div class="card-body">
+            <h5 class="card-title">Bañera</h5>
+            <p>$9.990</p>
+            <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img src="img/acc3.jpg" class="card-img-top" alt="acc3">
+          <div class="card-body">
+            <h5 class="card-title">Pañuelos</h5>
+            <p>$2.990</p>
+            <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img src="img/acc4.jpg" class="card-img-top" alt="acc4">
+          <div class="card-body">
+            <h5 class="card-title">Dispensador</h5>
+            <p>15.990</p>
+            <a href="#" class="btn btn-none" style="background-color: #C52AAD; color: white;">Comprar</a>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 </div>
+
 <!-------NOSOTROS--------->
 <nav class="navbar navbar-expand-sm navbar-dark" id="BarraNosotros">
 <div class="container-fluid">
     <!-- Logo -->
     <a class="navbar-brand" href="#">
-        <img src="http://assets.stickpng.com/thumbs/58aeffe0c869e092af51ee77.png" alt=""
+        <img src="img/logo.png" alt=""
         width="100">
     </a>
 
@@ -182,7 +184,7 @@
         <ul class="navbar-nav" id="ListadoNosotros">
             <li class="nav-item"><a class="nav-link" href="#">NUESTRA EMPRESA</a></li>
             <li class="nav-item"><a class="nav-link" href="#">NUESTRA ACTIVIDADES</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">SERVICIO AL CLIENTE</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="Contactanos.html">CONTACTANOS</a></li>
             <li class="nav-item"><a class="nav-link" href="#">NUESTRAS REDES SOCIALES</a></li>
         </ul>
     </div>

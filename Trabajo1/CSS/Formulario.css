@@ -13,15 +13,12 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: #707070;
+    color: #ffff;
+    border-color: black;
 }
+
 
 #formulario{
-    padding-left: 35%;
-
-}
-
-#fondo-formulario{
     background-color: rgb(156, 156, 156);
     border-radius: 1%;
 }
